@@ -58,6 +58,7 @@ GEM
     childprocess (0.3.1)
       ffi (~> 1.0.6)
     cocaine (0.2.1)
+    coderay (1.0.5)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -119,6 +120,7 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    method_source (0.7.1)
     mime-types (1.17.2)
     mongo (1.6.0)
       bson (= 1.6.0)
@@ -169,6 +171,14 @@ GEM
       cocaine (>= 0.0.2)
       mime-types
     polyglot (0.3.3)
+    pry (0.9.8.4)
+      coderay (~> 1.0.5)
+      method_source (~> 0.7.1)
+      slop (>= 2.4.4, < 3)
+    pry-rails (0.1.6)
+      pry
+    pry_debug (0.0.1)
+      pry (~> 0.9.0)
     rack (1.4.1)
     rack-cache (1.1)
       rack (>= 0.4)
@@ -242,6 +252,7 @@ GEM
       simplecov (>= 0.4.1)
     sinatra (1.0)
       rack (>= 1.0)
+    slop (2.4.4)
     sprockets (2.1.2)
       hike (~> 1.2)
       rack (~> 1.0)
@@ -313,6 +324,8 @@ DEPENDENCIES
   omniauth-google-oauth2
   omniauth-identity
   omniauth-twitter
+  pry-rails
+  pry_debug
   rails (~> 3.2.0)
   rails3-generators
   rspec-rails

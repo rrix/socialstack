@@ -44,19 +44,21 @@ group :development do
 end
 
 group :test, :development do
-  gem 'ruby-debug19', require: 'ruby-debug'
-  gem 'factory_girl_rails'
-  gem 'rspec-rails'
-  gem 'capybara'
-  gem 'launchy'
-  gem 'database_cleaner'
-  gem 'mongoid-rspec'
   gem 'capistrano'
   gem 'capistrano_colors'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'email_spec' 
+  gem 'factory_girl_rails'
+  gem 'fakeweb'
+  gem 'launchy'
+  gem 'mongoid-rspec'
+  gem 'pry-rails'
+  gem 'pry_debug'
+  gem 'rspec-rails'
+  gem 'ruby-debug19', require: 'ruby-debug'
   gem 'timecop'
   gem 'vcr'
-  gem 'fakeweb'
-  gem 'email_spec' 
 
   # Pretty printed test output
   gem 'turn', require: false
