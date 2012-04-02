@@ -54,7 +54,7 @@ group :test, :development do
   gem 'launchy'
   gem 'mongoid-rspec'
   gem 'pry-rails'
-  gem 'pry_debug'
+  gem 'pry-nav'
   gem 'rspec-rails'
   gem 'ruby-debug19', require: 'ruby-debug'
   gem 'timecop'

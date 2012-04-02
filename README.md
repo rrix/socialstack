@@ -66,7 +66,7 @@ with a IRB prompt in the server window. Here you can do things like:
 
 Finally, when you're ready to resume execution, you can enter "cont".
 
-You can also step through the code using 'n', thanks to the pry-debug gem.
+You can also step through the code using 'next', thanks to the pry-nav gem.
 
 Console
 -------
