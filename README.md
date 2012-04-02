@@ -14,19 +14,23 @@ Instructions
 
 For those rvm users we've included a rvmrc. Just:
 
+```bash
 cp rvmrc .rvmrc
 cd ..
+```
 
 And cd back in to your project.
 
 Accept the rvmrc
 
+```bash
 gem install bundler
 bundle
+```
 
 And you're ready to go.
 
-So strap this to your computer and ...
+So strap this to your computer and go!
 
 Debugging Using Pry
 -------------------
