@@ -7,7 +7,7 @@ describe "Socials" do
       visit root_path
     end
 
-    it 'generates a social+ name' do
+    it 'generates a social+ cloud' do
       page.should have_content "Here's your Cloud name, time for the IPO!"
       page.should have_css     "h1"
     end
