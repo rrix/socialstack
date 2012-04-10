@@ -49,7 +49,8 @@ private
       "Thunder",
       "Web",
       "Open",
-      "AsAService"
+      "AsAService",
+      "Scale"
     ]
   end
 
