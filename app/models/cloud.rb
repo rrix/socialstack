@@ -20,7 +20,7 @@ private
 
     cloud_length.times do
       word        = cloud_word_me
-      cloud_name += word
+      cloud_name += word if word
     end
 
     return cloud_name
