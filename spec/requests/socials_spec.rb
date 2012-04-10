@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe "Socials" do
-  describe "As a guest ISBAT social" do
+  describe "As a guest ISBAT cloud" do
 
     before do
       visit root_path
