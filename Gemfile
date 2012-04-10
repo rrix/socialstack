@@ -56,7 +56,6 @@ group :test, :development do
   gem 'pry-rails'
   gem 'pry-nav'
   gem 'rspec-rails'
-  gem 'ruby-debug19', require: 'ruby-debug'
   gem 'timecop'
   gem 'vcr'
 
