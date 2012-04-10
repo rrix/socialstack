@@ -22,15 +22,6 @@ gem 'aws-s3'
 gem 'mongoid-paperclip', require: 'mongoid_paperclip'
 gem 'dynamic_form'
 
-gem 'omniauth' # It's a sane default these days
-gem 'omniauth-facebook'
-gem 'omniauth-twitter'
-gem 'omniauth-google-oauth2'
-gem 'omniauth-identity'
-gem 'bcrypt-ruby'
-
-gem 'stripe'
-
 group :production do
   gem 'thin'
 end
