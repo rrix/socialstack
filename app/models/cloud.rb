@@ -47,7 +47,9 @@ private
       "Social",
       "Stack",
       "Thunder",
-      "Web"
+      "Web",
+      "Open",
+      "AsAService"
     ]
   end
 
