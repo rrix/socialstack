@@ -8,6 +8,12 @@ class Cloud
 
 private
 
+  def self.new_cloud
+    @the_cloud = some_silly_cloud_name
+
+    return Cloud.new cloud_name: @the_cloud
+  end
+
   def self.create_new_cloud
     @the_cloud = some_silly_cloud_name
 
@@ -50,7 +56,11 @@ private
       "Web",
       "Open",
       "AsAService",
-      "Scale"
+      "Scale",
+      "Mobile",
+      "App",
+      "4G",
+      "LTE"
     ]
   end
 
