@@ -47,6 +47,7 @@ group :test, :development do
   gem 'pry-rails'
   gem 'pry-nav'
   gem 'rspec-rails'
+  gem 'ruby-debug19'
   gem 'timecop'
   gem 'vcr'
 
